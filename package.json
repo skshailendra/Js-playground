@@ -1,0 +1,16 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "JS playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JS",
+    "ES6",
+    "ES2015"
+  ],
+  "author": "Shailendra Singh",
+  "license": "ISC"
+}
