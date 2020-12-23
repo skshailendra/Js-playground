@@ -5,4 +5,17 @@ const getCountryDataPromise = function () {
     .then((response) => response.json())
     .then((data) => console.log(data));
 };
-getCountryDataPromise();
+// getCountryDataPromise();
+
+const getCountryDataAsync = async function () {
+  const data = await fetch(`https://restcountries.eu/rest/v2/name/india`);
+
+  console.log("gggg");
+  console.log(data);
+  const afterJson = await data.json();
+  console.log("second");
+};
+
+getCountryDataAsync();
+console.log("First");
+console.log("ssss");
